@@ -1,7 +1,7 @@
 package com.foxamigo.pathlab.modules.doctor.bean;
 
 public class DoctorBean {
-
+	//making changes to test the commit and push
 	private String fName;
 	private String mName;
 	private String lName;
