@@ -6,10 +6,10 @@ import java.sql.SQLException;
 
 import javax.swing.JOptionPane;
 
-import com.foxamigo.pathology.dbutil.DbUtil;
-import com.foxamigo.pathology.exception.PathologyDAOException;
-import com.foxamigo.pathology.vo.BaseVO;
-import com.foxamigo.pathology.vo.PatientVO;
+import com.foxamigo.pathlab.dbutil.DbUtil;
+import com.foxamigo.pathlab.vo.PatientVO;
+
+
 
 public class PathologyDAO {
 	public void addPatientDetails(PatientVO patientVO) 
