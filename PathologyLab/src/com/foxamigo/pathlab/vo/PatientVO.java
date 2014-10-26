@@ -1,6 +1,7 @@
 package com.foxamigo.pathlab.vo;
 
-public class PatientVO extends BaseVO{
+
+public class PatientVO {
 	private long patientId;
 	private String patientAddlId;
 	private String patientFname;

@@ -4,8 +4,6 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-import com.foxamigo.pathology.dao.PathologyDAO;
-
 public class DbUtil {
 	private static Connection conn;
 	public DbUtil() throws ClassNotFoundException, SQLException
