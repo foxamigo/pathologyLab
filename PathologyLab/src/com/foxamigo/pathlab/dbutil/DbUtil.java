@@ -10,7 +10,7 @@ public class DbUtil {
 	{
 		Class.forName("com.mysql.jdbc.Driver");//Connection establishment to the database
 		String username = "root";
-		String password = "root";
+		String password = "foxamigo";
 		String Database = "jdbc:mysql://localhost:3306/pathlab";
 
 
@@ -20,5 +20,9 @@ public class DbUtil {
 	public static Connection getConnection()
 	{
 		return conn;
+	}
+	public static void close() throws SQLException
+	{
+		conn.close();
 	}
 }

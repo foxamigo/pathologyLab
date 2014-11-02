@@ -3,6 +3,7 @@ package com.foxamigo.pathlab.vo;
 
 public class PatientVO {
 	private long patientId;
+	private String patientCode;
 	private String patientAddlId;
 	private String patientFname;
 	private String patientMname;
@@ -16,6 +17,12 @@ public class PatientVO {
 	private long doctorId;
 	
 	
+	public String getPatientCode() {
+		return patientCode;
+	}
+	public void setPatientCode(String patientCode) {
+		this.patientCode = patientCode;
+	}
 	public String getPatientAddlId() {
 		return patientAddlId;
 	}
